@@ -1,6 +1,8 @@
 # p2p-demo
 C-based peer-to-peer network prototype that replicated the functionality of a blockchain ledger, ensuring consistent file synchronization across all connected nodes using POSIX standards. This prototype included establishing a socket and listening on a predefined port, handling incoming connections from other peers, transmitting and receiving data through active file descriptors, utilizing threads to monitor the ledger and manage concurrent connections, and implementing mutual exclusion mechanisms to prevent race conditions and ensure data integrity.
 
+Look at the attached p2p.pdf file for the full detailed report.
+
 INSTRUCTIONS
 *Will only work on linux*
 Create a new file with the name of your choice and store the p2p.c file in that directory
